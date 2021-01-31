@@ -608,7 +608,7 @@ class KineticsRules(Database):
                 A=(10 ** logA, Aunits),
                 n=n,
                 ne=ne,
-                alpha=alpha,
+                alpha=0.5,
                 Ea=(E0 * 0.001, "kJ/mol"),
                 )
         else:
